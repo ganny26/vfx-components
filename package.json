@@ -1,0 +1,29 @@
+{
+  "name": "vfx-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ganny26/vfx-components.git",
+  "author": "selvaganesh <selvaganeshrajam@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "now": "now --token $NOW_TOKEN"
+  },
+  "dependencies": {
+    "next": "^6.1.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  },
+  "engines": {
+    "node":">=6.0"
+  },
+  "files": [
+    ".next",
+    "server",
+    "static",
+    "package.json",
+    "yarn.lock"
+  ]
+}
